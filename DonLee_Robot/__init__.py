@@ -16,7 +16,7 @@ from .Translation import Translation
 
 # Change Accordingly While Deploying To A VPS
 # API_ID From https://youtu.be/5eEsvLAKVc0
-APP_ID = int(os.environ.get("API_ID"))
+API_ID = int(os.environ.get("API_ID"))
 # API_HASH From https://youtu.be/5eEsvLAKVc0
 API_HASH = os.environ.get("API_HASH")
 # BOT_TOKEN From https://youtu.be/cB4UduCcNWs
